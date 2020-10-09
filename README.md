@@ -22,12 +22,14 @@ $ make init
 # 各自環境変数をセット。
 ```
 
-### SlackBotの起動
+### SlackBotを起動
 ```
 $ make run
 
+# 上手く行った場合はSlackに「送信テスト」というメッセージが飛ぶはず。
 # 定期処理の実行間隔はconfig/clock.rb内で設定可能。
 ```
+![スクリーンショット 2020-10-10 3 00 26](https://user-images.githubusercontent.com/51913879/95616455-c3c03500-0aa4-11eb-9994-6093962d3b67.png)
 
 ## Herokuへのデプロイ（本番環境）
 
@@ -50,7 +52,7 @@ $ heroku create [app_name]
 
 https://app_name.herokuapp.com/ | https://git.heroku.com/app_name.git
 
-# 任意のアプリ名を入力
+# 任意のアプリ名を入力。
 ```
 
 ### Herokuへプッシュ
